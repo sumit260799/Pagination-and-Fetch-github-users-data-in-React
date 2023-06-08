@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 60%;
+  margin: auto;
+  display: grid;
+}
+.followers {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+article {
+  display: grid;
+
+  justify-content: space-around;
+  align-items: center;
+}
